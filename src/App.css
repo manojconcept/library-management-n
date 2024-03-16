@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.header{
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  padding-bottom: 0px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+  background-color: #D4C2FC;
+  font-size: 18px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.heading{
+  font-family: 'Dancing Script', cursive;
+}
+
+.homeHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 33px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.homeHeading1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Dancing Script', cursive;
+}
+
+.homeHeading2{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-left: 280px;
+  font-family: 'Dancing Script', cursive;
+}
+.navbarHeading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 360px;
+}
+
+.img{
+  background-image: url(./image.jpg);
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.animate-character {
+  background-image: linear-gradient(-225deg,
+      #6af3f3 30%,
+      #fdfd5ef7 40%,
+      #d87dfcd0 17%,
+      #ffffff 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200%;
+  }
+}
